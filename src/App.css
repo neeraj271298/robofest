@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.searchBox{
+  height: 30px;
+  width: 500px;
+  border-radius: 7.5px;
+  border-color: red;
+  margin-bottom: 10px;
+}
+
+.mainHeading{
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rebeccapurple;
+}
+
+
+
+.cardMain{
+  background-color: #282c34; 
+  color: aqua;
+  border: 2px solid aqua;
+  height: 400px;
+  width: 33%;
+  display: inline-block;
+  /* float: left; */
+  position: relative;
+  
+}
+
+.cardMain:hover{
+  background-color: blueviolet;
+}
